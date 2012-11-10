@@ -37,6 +37,7 @@ p#controls { margin:0; position:relative; }
 </head>
 <body>
 <div class="main">
+
   <div class="header">
     <div class="block_header">
       <div class="logo"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.gif" width="401" height="145" border="0" alt="logo" /></a></div>
@@ -47,56 +48,6 @@ p#controls { margin:0; position:relative; }
       <div class="clr"> </div>
     </div>
   </div>
-  <div class="slider">
-    <div class="slice1">
-      <div id="slider">
-        <ul>
-          <li>
-            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_1.jpg) top no-repeat;">
-              <h2>Dummy text of the printing and typesetting industry.</h2>
-              <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
-            </div>
-            <div class="bot">
-            <div class="lister">
-                <p class="active">1</p>
-                <p>2</p>
-                <p>3</p>
-              </div>
-              <h2>Simply dummy text</h2>
-              <p>Lorem Ipsum has been the industries standard dummy text ever since.</p>
-            </div>
-          </li>
-          <li>
-            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_2.jpg) top no-repeat;">
-              <h2>Dummy text of the printing and typesetting industry.</h2>
-              <p>Lorem Ipsum has been the industries standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
-            </div>
-            <div class="bot">
-            <div class="lister">
-                <p>1</p>
-                <p class="active">2</p>
-                <p>3</p>
-              </div>
-              <h2>Simply dummy text</h2>
-              <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-            </div>
-          </li>
-          <li>
-            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_3.jpg) top no-repeat;">
-              <h2>Dummy text of the printing and typesetting industry.</h2>
-              <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
-            </div>
-            <div class="bot">
-            <div class="lister">
-                <p>1</p>
-                <p>2</p>
-                <p class="active">3</p>
-              </div>
-              <h2>Simply dummy text</h2>
-              <p>Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>  
+
+	<?php get_template_part('part', 'slider');?>
+

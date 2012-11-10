@@ -2,7 +2,7 @@
 <?php wp_enqueue_script('jquery'); ?>
 <div class="body">
     <div class="body_resize">
-<?php get_sidebar();?>
+		<?php get_sidebar();?>
       <div class="animator">
         <p><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img_4.gif" alt="picture" width="169" height="126" /> <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img_3.gif" alt="picture" width="169" height="126" /><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img_2.gif" alt="picture" width="170" height="126" /></p>
         <h2>Dummy text of the printing and typesetting industry.</h2>
