@@ -4,8 +4,8 @@
 <title>home</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<script type="text/javascript" src="http://localhost/wordpress/wp-content/themes/photopholio/js/jquery.js"></script>
-<script type="text/javascript" src="http://localhost/wordpress/wp-content/themes/photopholio/js/easySlider1.5.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/easySlider1.5.js"></script>
 <script type="text/javascript" charset="utf-8">
 // <![CDATA[
 $(document).ready(function(){	
@@ -31,15 +31,15 @@ p#controls { margin:0; position:relative; }
 #prevBtn,
 #nextBtn { display:block; margin:0; overflow:hidden; width:44px; height:44px; position:absolute; left:0; top:-250px; }
 #nextBtn { left:862px; }
-#prevBtn a { display:block; width:44px; height:44px; background:url(http://localhost/wordpress/wp-content/themes/photopholio/images/l_arrow.gif) no-repeat 0 0; }
-#nextBtn a { display:block; width:44px; height:44px; background:url(http://localhost/wordpress/wp-content/themes/photopholio/images/r_arrow.gif) no-repeat 0 0; }
+#prevBtn a { display:block; width:44px; height:44px; background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:44px; height:44px; background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/r_arrow.gif) no-repeat 0 0; }
 </style>
 </head>
 <body>
 <div class="main">
   <div class="header">
     <div class="block_header">
-      <div class="logo"><a href="#"><img src="http://localhost/wordpress/wp-content/themes/photopholio/images/logo.gif" width="401" height="145" border="0" alt="logo" /></a></div>
+      <div class="logo"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.gif" width="401" height="145" border="0" alt="logo" /></a></div>
       <div class="menu">
        <?php wp_nav_menu( array( 'container' => '', ) ); ?>
         </ul>
@@ -52,7 +52,7 @@ p#controls { margin:0; position:relative; }
       <div id="slider">
         <ul>
           <li>
-            <div class="top" style="background:url(http://localhost/wordpress/wp-content/themes/photopholio/images/sliser_bg_img_1.jpg) top no-repeat;">
+            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_1.jpg) top no-repeat;">
               <h2>Dummy text of the printing and typesetting industry.</h2>
               <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>
@@ -67,7 +67,7 @@ p#controls { margin:0; position:relative; }
             </div>
           </li>
           <li>
-            <div class="top" style="background:url(http://localhost/wordpress/wp-content/themes/photopholio/images/sliser_bg_img_2.jpg) top no-repeat;">
+            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_2.jpg) top no-repeat;">
               <h2>Dummy text of the printing and typesetting industry.</h2>
               <p>Lorem Ipsum has been the industries standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>
@@ -82,7 +82,7 @@ p#controls { margin:0; position:relative; }
             </div>
           </li>
           <li>
-            <div class="top" style="background:url(http://localhost/wordpress/wp-content/themes/photopholio/images/sliser_bg_img_3.jpg) top no-repeat;">
+            <div class="top" style="background:url(<?php echo get_stylesheet_directory_uri(); ?>/images/sliser_bg_img_3.jpg) top no-repeat;">
               <h2>Dummy text of the printing and typesetting industry.</h2>
               <p>Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer. <a href="#">Simply dummy text of the printing</a> and typesetting industry. Lorem Ipsum has been the industry's </p>
             </div>

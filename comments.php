@@ -15,7 +15,7 @@
 	<strong>Time</strong> <?php comment_date() ?> at <?php comment_time(); ?></p>
 	<?php comment_text() ?>
 	
-	<?php if ($comment->comment_approved == '0') : ?>
+	<?php if( $comment->comment_approved == '0' ) : ?>
 	<p><strong>Thank you for your comment! It has been added to the moderation queue and will be published here if approved by the webmaster.</strong></p>
 	<?php endif; ?>
 	</div>
