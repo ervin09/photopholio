@@ -39,14 +39,9 @@ p#controls { margin:0; position:relative; }
 <div class="main">
   <div class="header">
     <div class="block_header">
-      <div class="logo"><a href="index.html"><img src="http://localhost/wordpress/wp-content/themes/photopholio/images/logo.gif" width="401" height="145" border="0" alt="logo" /></a></div>
+      <div class="logo"><a href="#"><img src="http://localhost/wordpress/wp-content/themes/photopholio/images/logo.gif" width="401" height="145" border="0" alt="logo" /></a></div>
       <div class="menu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="services.html">About us</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+       <?php wp_nav_menu( array( 'container' => '', ) ); ?>
         </ul>
       </div>
       <div class="clr"> </div>
